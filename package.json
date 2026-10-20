@@ -1,0 +1,17 @@
+{
+  "name": "mi-inventario-offline",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Aplicación de inventario offline para Android",
+  "scripts": {
+    "android:add": "cap add android",
+    "android:sync": "cap sync android",
+    "android:open": "cap open android"
+  },
+  "dependencies": {
+    "@capacitor/core": "^8.0.0"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^8.0.0"
+  }
+}
